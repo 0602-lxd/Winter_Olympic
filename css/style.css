@@ -1,0 +1,224 @@
+* {
+	margin: 0;
+	padding:0;
+}
+a {
+    color: #333333;
+    text-decoration: none;
+}
+
+body{
+    font-family: "palatino Linotype","Book Antiqua",palatino,serif;
+}
+
+.container{
+	display: flex;
+	flex-direction: column;
+    width: 100%;
+    min-width: 1280px;
+	margin: 0 auto;
+}
+
+.header{
+	height: 400px;
+	background: url(../images/data.jpg) 0 0 no-repeat #00000000;
+	display: flex;
+	flex-direction: column;
+	    background-size: cover;
+    background-position: center;
+}
+
+.flag{
+	margin: 100px 2% 150px 2%;
+}
+
+.flag>h1{
+    display: flex;
+    justify-content: center;
+    font-size: 50px;
+    color: #00c1da
+}
+
+.flag p{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+     color: #3b3b3b
+}
+
+.flag img{
+	width: 100%;
+	height: 100%;
+}
+
+
+.information{
+    margin: 0 3% 3% 3%;
+    height: 350px;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.information .text{
+    width: 50%;
+    background-color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+	margin: 0 5%;
+}
+
+
+.information .img{
+width: 50%;
+    height: 100%;
+}
+.information canvas{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+
+
+.information p{
+    font-size: 15px;
+    font-weight: bold;
+    text-indent: 20px;
+    color: #86979f;
+}
+
+.information p.large{
+    font-size: 25px;
+    color: #3b3b3b
+
+}
+
+
+
+.info{
+    margin: 0 3% 3% 3%;
+    height: 350px;
+    display: flex;
+    flex-direction: row;   
+
+}
+
+.info .text{
+    width: 50%;
+    background-color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+	margin: 0 5%;
+}
+
+.info .img{
+width: 50%;
+    height: 100%;
+}
+.info canvas{
+	width: 100%;
+    height: 100%;
+	margin: auto;
+}
+
+
+.info p{
+	font-size: 15px;
+    font-weight: bold;
+    text-indent: 20px;
+    color: #86979f;
+}
+
+.info p.large{
+	font-size: 25px;
+    color: #3b3b3b
+
+}
+
+
+.footer{
+    background-color: #000;
+	display: flex;
+    flex-direction: row;
+}
+.footer .nav{
+	width: 65%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 2%;
+}
+
+.footer .nav a{
+	text-decoration: none;
+    color: #fff;
+    float: right;
+	font-size: 16px;
+    margin: 0 2%;
+    height: auto;
+}
+
+.footer .nav .active{
+    color: #ff0176;
+    background-color: #fff;
+}
+
+
+.footright p {
+    display: block;
+    width: 280px;
+    text-align: left;
+    margin-top: 5px;
+    color: #fff;
+}
+
+.footlink img {
+	width: 38px;
+    height: 38px;
+    margin: 5px;
+}
+
+.header>.top{
+	height: 70%;
+	display: flex;
+    flex-direction: row;
+}
+.header .nav{
+    height: 30%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+	padding: 0 2%;
+}
+
+.header .nav a{
+	text-decoration: none;
+    color: #000;
+    float: right;
+    margin: 0 2%;
+    height: auto;
+}
+
+.header .nav .active{
+	color: #ff0176;
+    background-color: #fff;
+}
+
+
+.video{
+	height: 400px;
+    margin: 20px 20%;
+}
+
+.title{
+	margin: auto 3%;
+    width: 50%;
+}
+
+.title p:first-child{
+	font-size: 60px;
+}

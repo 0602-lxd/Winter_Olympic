@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Author" content="xindi lu">
+  <title>Winter Olympics Data Analysis!</title>
+
+	<link rel="stylesheet" href="./css/style.css" type="text/css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+ </head>
+ <body>
+  
+<div  class="container">
+
+	
+	<div  class="header">
+
+		<div  class="nav   animated bounceInRight ">
+			<a href="#">HOME</a>
+			<a href="#flag">Flag</a>
+			<a href="#myPie">My Pie</a>
+			<a href="#myBar">My Bar</a>
+			<a href="#medalBar">Multiple Charts</a>
+			<a href="#myHorizontalBar">My Horizontal Bar</a>
+		</div>
+
+		<div class="title">
+			<p class="animated  bounceInLeft">Winter Olympics Data Analysis</p>
+			<p class="animated  rubberBand">Olympic Sports and Medals, 1924-2014</p>
+		</div>
+
+	</div>
+
+
+	<div id="flag" class="flag  animated bounceInUp">
+		<h1>Winter Olympics Data Analysis-Canada section</h1>
+		<br />
+		<p class="a">Is the number of medals in Canada developing in a positive direction? What is the trend in the future?</p>
+		<br />
+		<p>Flowing are my four visual data analysis and conclusions</p>
+	</div>
+
+
+	<div  class="info">
+		<div  class="text">
+			<p class="large">The number of medals received by each competition item</p>
+			<br />
+			<p>Pie Chart</p>
+			<br />
+			<p>Canada ’s best project is ice hockey. The number of medals received by ice hockey is more than all other sports combined, accounting for about 56% of the Canadian medals. Luge did not get a medal, Biathlon only took three medals, these two are the worst items Canadian athletes are good at.</p>
+		</div>
+			<div  class="img">
+
+				 <canvas id="myPie"  class="img-fluid"></canvas>
+		</div>
+	</div>
+
+	<div  class="information">
+		<div  class="text">
+			<p class="large">The number of Canadian men and women in the medals of each competition item</p>
+			<br />
+			<p>Bar Chart</p>
+			<br />
+			<p>In the three sports of ice hockey, skating, and Bobsleigh, there are more male winners than women. Among them, the percentage between men and women in ice hockey has big differencce, the man is almost double than women. Skiing and Biathlon are more female winners, and the same number of curing winners.</p>
+		</div>
+		<div  class="img">
+
+				 <canvas id="myBar"  class="img-fluid"></canvas>
+		</div>
+	</div>
+
+
+		<div  class="info">
+		<div  class="text">
+			<p class="large">In recent years (30) the number of CAN medals accounted for the proportion of the total</p>
+			<br />
+			<p>Multiple Charts</p>
+			<br />
+			<p>We can see from the intersecting areas that the number of Canadian medals accounts of the total. The number of Canadian medals has increased substantially since 1992, and has been steadily and slowly increasing since then. By 2014, the proportion of the global total began to decline.</p>
+		</div>
+		<div  class="img">
+
+				  <canvas id="medalBar"  class="img-fluid"></canvas>
+		</div>
+	</div>
+
+
+		<div  class="information">
+		<div  class="text">
+			<p class="large">The number of medals of various sports in recent years (30) and Predict to 2050 in Canada</p>
+			<br />
+			<p>Horizontal Bar</p>
+			<br />
+			<p>By analyzing these data, it can be seen that the number of medals in Canada is increasing year by year, and it is actively developing, especially in the field of ice hockey. However, for luge, Canada never won medals from 1924 to 2014. . Canada needs to train more luge talents and develop in an all-round way so that Canada can better compete with other countries in the Winter Olympics.</p>
+		</div>
+		<div  class="img">
+
+			<canvas id="myHorizontalBar"  class="img-fluid"></canvas>
+				 
+		</div>
+	</div>
+	
+	<div  class="video">
+			<iframe width="100%" height="100%" src="https://www.youtube.com/embed/-z6Tvp6QlFw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+	</div>
+
+	<footer  class="footer">
+		<div  class="nav">
+			<a href="#">HOME</a>
+			<a href="#flag">Flag</a>
+			<a href="#myPie">My Pie</a>
+			<a href="#myBar">My Bar</a>
+			<a href="#medalBar">Multiple Charts</a>
+			<a href="#myHorizontalBar">My Horizontal Bar</a>
+		</div>
+		<div class="footright">
+		
+			 <p>Data was provided by the IOC Research and Reference Service and published by The Guardian's Datablog.<br />
+		     </p>
+			 <p class="footlink">
+				 <a href="#"><img src="./images/facebook.png" alt="logo"></a>
+				 <a href="#"><img src="./images/youtube.png" alt="logo"></a>
+				 <a href="#"><img src="./images/twitter.png" alt="logo"></a>
+				 <a href="#"><img src="./images/pinterest.png" alt="logo"></a>
+			 </p>
+		</div>
+	</footer>
+
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/chart.js@2.9.3/dist/Chart.min.js"></script>
+ <script src="./js/app.js"></script> 
+ </body>
+</html>
